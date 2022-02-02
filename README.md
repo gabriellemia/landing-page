@@ -1,0 +1,1 @@
+Landing page project - To show learning outcomes from css foundations.  Copy given landing page as closely as possible from scratch, using flexbox and other revised css and html methods.
