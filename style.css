@@ -12,6 +12,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 16px;
+    padding-left: 325px;
+    padding-right: 325px;
 }
 
 ul {
@@ -31,12 +33,13 @@ ul {
     align-items: center;
     justify-content: center; 
     padding: 50px;
+    padding-bottom: 100px;
 }
 
 h1 {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     width: 400px;
 }
 
@@ -63,5 +66,45 @@ p {
     width: 300px;
     padding: 100px 100px;
     float: right;
-    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.square {
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 150px;
+    text-align: center;
 }
