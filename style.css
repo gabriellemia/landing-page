@@ -50,8 +50,9 @@ p {
     width: 400px;
 }
 
-.button {
+.buttonone {
     color: #f9faf8;
+    font-weight: bold;
     background-color: #3882f6;
     width: 80px;
     padding: 5px 10px;
@@ -130,5 +131,63 @@ p {
     font-size: 24px;
     padding-top: 20px;
     padding-left: 400px;
+}
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 800px;
+    padding: 40px;
+    border-radius: 7px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.bold {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {
+    color: white;
+}
+
+.buttontwo {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882f6;
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
